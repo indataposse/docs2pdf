@@ -1,0 +1,15 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "language": "es",
+ // "theme": "opencode",//
+  "autoupdate": "notify",
+  "instructions": "AGENTS.md",
+  "output": {
+    "language": "es"
+  },
+  "limits": {
+    "maxLinesPerRead": 2000,
+    "maxCommandOutputBytes": 51200,
+    "commandTimeoutMs": 120000
+  }
+}
